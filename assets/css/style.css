@@ -1,0 +1,174 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.home__section {
+  background: #020024;
+  background: linear-gradient(170deg, #020024 0%, #090979 35%, #090979 100%);
+  border-bottom-left-radius: 5% 2%;
+  border-bottom-right-radius: 5% 2%;
+  height: 102vh;
+}
+.home__section .home_container {
+  padding: 1rem 4.1rem 0 4.1rem;
+}
+.home__section ul {
+  list-style: none;
+  display: flex;
+  margin-top: 34px;
+  margin-bottom: 0;
+  margin-left: -120px;
+}
+.home__section ul li {
+  padding-right: 39px;
+}
+.home__section ul a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.home__section .cta {
+  z-index: 1000;
+  margin-top: 25px;
+}
+.home__section .cta .cta_btn {
+  background-color: #2ea44f;
+  box-shadow: 0 20px 20px 0 rgba(0, 2, 51, 0.3);
+  color: #fff;
+  padding: 4px 17px 6px;
+  border-radius: 71px;
+}
+.home__section .home__banner {
+  margin-top: 5%;
+  padding: 1rem 4.1rem 0 4.1rem;
+}
+.home__section .home__banner h1 {
+  font-size: 68px;
+  color: #fff;
+  width: 631px;
+  line-height: 1.1;
+}
+.home__section .home__banner p {
+  color: white;
+}
+.home__section .home__banner button {
+  background: #fed049;
+  box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.1);
+  color: #020024;
+  outline: none;
+  padding: 4px 17px 6px;
+  border-radius: 71px;
+}
+
+.about__section .about__sectionContent {
+  background-color: rgba(196, 196, 196, 0.17);
+  padding: 3rem 1rem 0 4.1rem;
+  height: 60.5rem;
+}
+.about__section .about__sectionContent .left__about {
+  flex: 0.5;
+  margin-top: 70px;
+}
+.about__section .about__sectionContent .left__about h3 {
+  font-size: 39px;
+  font-weight: 600;
+}
+.about__section .about__sectionContent .left__about .aboutDetails {
+  background: #fff;
+  box-shadow: 0 20px 20px 0 rgba(0, 2, 51, 0.3);
+  width: 576px;
+  padding: 37px 47px;
+  border-radius: 23px;
+  margin-top: 49px;
+}
+.about__section .about__sectionContent .left__about .aboutDetails h4 {
+  font-weight: 500;
+  font-size: 33px;
+  color: #000;
+}
+.about__section .about__sectionContent .left__about .aboutDetails p {
+  color: #000;
+}
+.about__section .about__sectionContent .right_about {
+  flex: 0.5;
+  padding-left: 90px;
+  padding-top: 60px;
+}
+.about__section .about__sectionContent .right_about .right__container {
+  background: #020024;
+  padding: 103px 72px 36px;
+  box-shadow: 0 20px 20px 0 rgba(0, 2, 51, 0.3);
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  height: 568px;
+}
+.about__section .about__sectionContent .right_about h2 {
+  color: #fff;
+  font-size: 47px;
+  margin-bottom: 60px;
+}
+.about__section .about__sectionContent .right_about .carousel-indicators {
+  top: 190px;
+  right: auto;
+  margin-left: 0;
+}
+.about__section .about__sectionContent .right_about .carousel-indicators li {
+  width: 25px;
+  height: 25px;
+  margin-right: 9px;
+  border-radius: 50%;
+}
+.about__section .about__sectionContent .right_about .carousel-item {
+  color: #fff;
+}
+.about__section .svg2 {
+  position: absolute;
+  top: 900px;
+  right: 0;
+}
+
+.howitworks__section {
+  background-color: rgba(196, 196, 196, 0.17);
+  padding: 3rem 4.1rem 0 4.1rem;
+}
+.howitworks__section .left_col {
+  flex: 0.5;
+}
+.howitworks__section .right_col {
+  flex: 0.5;
+}
+
+.footer__section {
+  background: #020024;
+  padding: 25px 62px;
+  color: #fff;
+}
+.footer__section ul li {
+  list-style: none;
+}
+.footer__section ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__section h4 {
+  font-size: 22px;
+}
+.footer__section .q__links {
+  padding-top: 37px;
+  padding-left: 75px;
+}
+.footer__section .q__links ul {
+  margin-left: -38px;
+}
+.footer__section .cont_of {
+  padding-top: 37px;
+}
+.footer__section .cont_of li p {
+  margin-bottom: 0;
+}
+.footer__section .cont_of ul {
+  margin-left: -38px;
+}
+
+/*# sourceMappingURL=style.css.map */
