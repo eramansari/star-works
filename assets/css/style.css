@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500;600;900&display=swap");
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -5,7 +6,7 @@ body {
 
 .home__section {
   background: #020024;
-  background: linear-gradient(170deg, #020024 0%, #090979 35%, #090979 100%);
+  background: linear-gradient(170deg, #020024 0%, #090979 95%, #090979 100%);
   border-bottom-left-radius: 5% 2%;
   border-bottom-right-radius: 5% 2%;
   height: 102vh;
@@ -48,6 +49,7 @@ body {
   color: #fff;
   width: 631px;
   line-height: 1.1;
+  font-family: "Petrona", serif;
 }
 .home__section .home__banner p {
   color: white;
@@ -63,8 +65,7 @@ body {
 
 .about__section .about__sectionContent {
   background-color: rgba(196, 196, 196, 0.17);
-  padding: 3rem 1rem 0 4.1rem;
-  height: 60.5rem;
+  padding: 3rem 0rem 0 4.1rem;
 }
 .about__section .about__sectionContent .left__about {
   flex: 0.5;
@@ -97,7 +98,8 @@ body {
 }
 .about__section .about__sectionContent .right_about .right__container {
   background: #020024;
-  padding: 103px 72px 36px;
+  background: linear-gradient(170deg, #020024 0%, #090979 95%, #090979 100%);
+  padding: 74px 72px 36px;
   box-shadow: 0 20px 20px 0 rgba(0, 2, 51, 0.3);
   border-radius: 15px;
   border-top-right-radius: 0;
@@ -105,7 +107,7 @@ body {
 }
 .about__section .about__sectionContent .right_about h2 {
   color: #fff;
-  font-size: 47px;
+  font-size: 38px;
   margin-bottom: 60px;
 }
 .about__section .about__sectionContent .right_about .carousel-indicators {
@@ -121,6 +123,7 @@ body {
 }
 .about__section .about__sectionContent .right_about .carousel-item {
   color: #fff;
+  max-width: 500px;
 }
 .about__section .svg2 {
   position: absolute;
@@ -128,19 +131,27 @@ body {
   right: 0;
 }
 
-.howitworks__section {
+.whychooseus {
   background-color: rgba(196, 196, 196, 0.17);
-  padding: 3rem 4.1rem 0 4.1rem;
+  padding: 9rem 4.1rem 3rem;
 }
-.howitworks__section .left_col {
-  flex: 0.5;
+.whychooseus h4 {
+  font-size: 39px;
+  font-weight: 600;
 }
-.howitworks__section .right_col {
-  flex: 0.5;
+.whychooseus p {
+  width: 600px;
+}
+.whychooseus .right__feature p {
+  padding: 0.7rem 2rem;
+  width: 50%;
+  background: #fff;
+  box-shadow: 0 20px 20px 0 rgba(0, 2, 51, 0.1);
 }
 
 .footer__section {
   background: #020024;
+  background: linear-gradient(170deg, #020024 0%, #090979 95%, #090979 100%);
   padding: 25px 62px;
   color: #fff;
 }

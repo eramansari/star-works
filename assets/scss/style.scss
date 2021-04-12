@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500;600;900&display=swap");
 body {
 	max-width: 100%;
 	overflow-x: hidden;
@@ -7,7 +8,7 @@ body {
 	background: linear-gradient(
 		170deg,
 		rgba(2, 0, 36, 1) 0%,
-		rgba(9, 9, 121, 1) 35%,
+		rgba(9, 9, 121, 1) 95%,
 		rgba(9, 9, 121, 1) 100%
 	);
 	border-bottom-left-radius: 5% 2%;
@@ -51,6 +52,7 @@ body {
 			color: #fff;
 			width: 631px;
 			line-height: 1.1;
+			font-family: "Petrona", serif;
 		}
 		p {
 			color: white;
@@ -68,8 +70,7 @@ body {
 .about__section {
 	.about__sectionContent {
 		background-color: rgba(196, 196, 196, 17%);
-		padding: 3rem 1rem 0 4.1rem;
-		height: 60.5rem;
+		padding: 3rem 0rem 0 4.1rem;
 		.left__about {
 			flex: 0.5;
 			margin-top: 70px;
@@ -100,7 +101,14 @@ body {
 			padding-top: 60px;
 			.right__container {
 				background: rgb(2, 0, 36);
-				padding: 103px 72px 36px;
+
+				background: linear-gradient(
+					170deg,
+					rgba(2, 0, 36, 1) 0%,
+					rgba(9, 9, 121, 1) 95%,
+					rgba(9, 9, 121, 1) 100%
+				);
+				padding: 74px 72px 36px;
 				box-shadow: 0 20px 20px 0 rgb(0 2 51 / 30%);
 				border-radius: 15px;
 				border-top-right-radius: 0;
@@ -108,7 +116,7 @@ body {
 			}
 			h2 {
 				color: #fff;
-				font-size: 47px;
+				font-size: 38px;
 				margin-bottom: 60px;
 			}
 			.carousel-indicators {
@@ -124,6 +132,7 @@ body {
 			}
 			.carousel-item {
 				color: #fff;
+				max-width: 500px;
 			}
 		}
 	}
@@ -133,18 +142,33 @@ body {
 		right: 0;
 	}
 }
-.howitworks__section {
-	background-color: rgba(196, 196, 196, 0.17);
-	padding: 3rem 4.1rem 0 4.1rem;
-	.left_col {
-		flex: 0.5;
+.whychooseus {
+	background-color: rgba(196, 196, 196, 17%);
+	padding: 9rem 4.1rem 3rem;
+	h4 {
+		font-size: 39px;
+		font-weight: 600;
 	}
-	.right_col {
-		flex: 0.5;
+	p {
+		width: 600px;
+	}
+	.right__feature {
+		p {
+			padding: 0.7rem 2rem;
+			width: 50%;
+			background: #fff;
+			box-shadow: 0 20px 20px 0 rgb(0 2 51 / 10%);
+		}
 	}
 }
 .footer__section {
 	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		170deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 95%,
+		rgba(9, 9, 121, 1) 100%
+	);
 	padding: 25px 62px;
 	color: #fff;
 	ul li {
